@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <div class="form">
+        <h2>My Registration Form</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>First Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>PW Confirm</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="male">
+                        <label for="male">Male</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="female">
+                        <label for="male">Female</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <label for="description">A short description about yourself:</label>
+    <br>
+    <textarea id="description" cols="30" rows="10"></textarea>
+    <br>
+    <label for="language">Favorite Language</label>
+    <select id="language">
+        <option>Javascript</option>
+        <option>Python</option>
+        <option>Java</option>
+    </select>
+    <br>
+    <button type="submit">Submit</button>
+</body>
+
+</html>
